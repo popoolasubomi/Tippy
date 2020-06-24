@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43599C1524A2D03100BE7E14 /* settingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 43599C1424A2D03100BE7E14 /* settingsViewController.m */; };
 		436C0E8324A23BD2009A447B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 436C0E8224A23BD2009A447B /* AppDelegate.m */; };
 		436C0E8624A23BD2009A447B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 436C0E8524A23BD2009A447B /* SceneDelegate.m */; };
 		436C0E8924A23BD2009A447B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 436C0E8824A23BD2009A447B /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		43599C1324A2D03100BE7E14 /* settingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = settingsViewController.h; sourceTree = "<group>"; };
+		43599C1424A2D03100BE7E14 /* settingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = settingsViewController.m; sourceTree = "<group>"; };
 		436C0E7E24A23BD2009A447B /* Tippy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tippy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		436C0E8124A23BD2009A447B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		436C0E8224A23BD2009A447B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -115,6 +118,8 @@
 				436C0E8F24A23BD3009A447B /* LaunchScreen.storyboard */,
 				436C0E9224A23BD3009A447B /* Info.plist */,
 				436C0E9324A23BD3009A447B /* main.m */,
+				43599C1324A2D03100BE7E14 /* settingsViewController.h */,
+				43599C1424A2D03100BE7E14 /* settingsViewController.m */,
 			);
 			path = Tippy;
 			sourceTree = "<group>";
@@ -267,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43599C1524A2D03100BE7E14 /* settingsViewController.m in Sources */,
 				436C0E8924A23BD2009A447B /* ViewController.m in Sources */,
 				436C0E8324A23BD2009A447B /* AppDelegate.m in Sources */,
 				436C0E9424A23BD3009A447B /* main.m in Sources */,
